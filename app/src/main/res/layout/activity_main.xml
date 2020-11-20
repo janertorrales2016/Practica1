@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAF8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblcelular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="219dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Telefono:"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/lblgenero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="179dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Gènero:"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="22dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/lbltitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Practica 1 Android"
+        android:textAlignment="center"
+        android:textColor="#020202"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/lblnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="91dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Nombre:"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/lblfecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Fecha Nac:"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtdate"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="22dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="date"
+        android:maxLength="8"
+        android:textColor="#040303"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="215dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="10" />
+
+    <Button
+        android:id="@+id/btnenviar"
+        android:layout_width="141dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:background="#EA5050"
+        android:backgroundTint="#EA1A1A"
+        android:text="Enviar"
+        android:textColor="#F8F5F5"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="22dp">
+
+        <RadioButton
+            android:id="@+id/rbmasculino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masculino" />
+
+        <RadioButton
+            android:id="@+id/rbfemenino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Femenino" />
+    </RadioGroup>
+
+</RelativeLayout>
