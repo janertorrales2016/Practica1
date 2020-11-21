@@ -99,7 +99,7 @@
         android:textSize="18sp" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/txtcelular"
         android:layout_width="236dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -119,11 +119,13 @@
         android:layout_marginBottom="70dp"
         android:background="#EA5050"
         android:backgroundTint="#EA1A1A"
+        android:onClick="btenviar"
         android:text="Enviar"
         android:textColor="#F8F5F5"
         android:textSize="24sp" />
 
     <RadioGroup
+        android:id="@+id/radiogroup"
         android:layout_width="243dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -139,7 +141,7 @@
 
         <RadioButton
             android:id="@+id/rbfemenino"
-            android:layout_width="match_parent"
+            android:layout_width="194dp"
             android:layout_height="wrap_content"
             android:text="Femenino" />
     </RadioGroup>
