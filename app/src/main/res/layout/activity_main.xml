@@ -17,7 +17,7 @@
         android:layout_centerVertical="true"
         android:layout_marginEnd="22dp"
         android:layout_marginBottom="281dp"
-        android:ems="10"/>
+        android:ems="10" />
 
     <TextView
         android:id="@+id/lblcelular"
@@ -65,7 +65,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="1dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Practica 1 Android"
+        android:text="@string/practica_1_android"
         android:textAlignment="center"
         android:textColor="#020202"
         android:textSize="30sp" />
