@@ -7,6 +7,18 @@
     android:background="#FAFAF8"
     tools:context=".MainActivity">
 
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="281dp"
+        android:ems="10"/>
+
     <TextView
         android:id="@+id/lblcelular"
         android:layout_width="wrap_content"
@@ -85,20 +97,6 @@
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/txtdate"
-        android:layout_width="237dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="22dp"
-        android:ems="10"
-        android:fontFamily="sans-serif-medium"
-        android:inputType="date"
-        android:maxLength="8"
-        android:textColor="#040303"
-        android:textSize="18sp" />
-
-    <EditText
         android:id="@+id/txtcelular"
         android:layout_width="236dp"
         android:layout_height="wrap_content"
@@ -141,7 +139,7 @@
 
         <RadioButton
             android:id="@+id/rbfemenino"
-            android:layout_width="194dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Femenino" />
     </RadioGroup>
